@@ -1,0 +1,92 @@
+#perfil{
+    width: 450px;
+}
+
+#btn-hello{
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    background-color: #FCA311;
+    border-radius: 20px;
+    border: #FCA311;
+    padding: 0.5rem;
+}
+
+#btn-hello a{
+    text-decoration: none;
+    color: white;
+}
+
+#proyectos{
+    color: #212529;
+    font-size: 1rem;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.presentation{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.presentation p{
+    font-size: 1.2rem;
+}
+
+.separador{
+    width: 60%;
+    height: 0.5px;
+    color: #14213d;
+    background-color: #14213d;
+}
+
+.div-proyectos h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.lista-proyectos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 50px;
+
+}
+
+.lista-proyectos li{
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 0px rgb(0 0 0 / 20%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    width: 20%;
+    transition: transform .2s;
+
+}
+
+.lista-proyectos li:hover{
+    transform: scale(1.1);
+}
+
+.lista-proyectos a{
+    text-decoration: none;
+}
+
+.lista-proyectos a:visited{
+    color: black;
+}
+
+.lista-proyectos li a img{
+    width: 100%;
+}
+

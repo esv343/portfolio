@@ -1,0 +1,36 @@
+.nav-inferior{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-inferior a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    background-color: #E5E5E5;
+    padding: 0 2rem 0 2rem;
+}
+
+.top-arrow{
+    position: absolute;
+    width: 90%;
+}
+
+.top img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+
+}

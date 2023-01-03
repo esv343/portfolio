@@ -1,0 +1,75 @@
+#twitter, #linkedin{
+    width: 50px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#form input, #form textarea{
+    border-radius: 10px;
+    resize: none;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#form button{
+    background-color: #14213D;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#form button:hover{
+    background-color: #284179;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;   
+    position: absolute;
+    top: 180px;
+    right: 90px;
+}
+
+.contacto{
+    width: 30%;
+    margin-right: 2.5rem;
+}
+
+.texto-contacto h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.texto-contacto p{
+    font-size: 1.2rem;
+}
+
+.redes-contacto{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.redes-contacto a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.barra-separadora{
+    width: 1rem;
+    background: rgb(229,229,229);
+    background: linear-gradient(360deg, #14213D, #E5E5E5);
+}
+
+.formulario{
+    margin-left: 5rem;
+}
+
+

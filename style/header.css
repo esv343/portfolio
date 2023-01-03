@@ -1,0 +1,50 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #14213d;
+    padding: 0 2rem 0 2rem;
+}
+
+#logo_ev{
+    width: 80px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.div-nombre a{
+    text-decoration: none;
+    color: white;
+}
+
+.secciones{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secciones a{
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+}
+
+
+.secciones ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.redes i{
+    margin-top: 0.7rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
