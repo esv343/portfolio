@@ -135,4 +135,8 @@
         width: 90%;
         margin-bottom: 1rem;
     }
+
+    .lista-proyectos li:hover{
+        transform: scale(1.0);
+    }
 }
