@@ -13,25 +13,31 @@
         <div class="div-nombre">
             <a href="./index.html"><img id="logo_ev" src="./img/logo_ev.png"></img></a>    
         </div>
-
+        
         <nav class="nav">
-            <div class="secciones">
-                <ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+
+            <div class="secciones" id="secciones">
+                <ul class="lista-secciones">
                     <li><a href="./acerca.html">acerca de</a></li>
                     <li><a href="./portfolio.html">portfolio</a></li>
                     <li><a href="./contacto.html">contacto</a></li>
+                    <li>
+                        <div class="redes">
+                            <a href="https://twitter.com/esv343" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/esv343/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-solid fa-language"></i></a>
+                        </div>
+                    </li>
                 </ul>
-
-                <div class="redes">
-                    <a href="https://twitter.com/esv343" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/esv343/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-solid fa-language"></i></a>
-                </div>
             </div> 
-        </nav> 
+        </nav>
+       
     </header>
 
-    <main class="principal">
+    <main class="principal" id="main">
 
         <div class="contacto">
             <div class="texto-contacto">
@@ -83,5 +89,7 @@
             <a class="top" href="#top"> <img src="./img/flecha_footer.png" alt=""></a>
         </div>
     </footer>
+
+    <script src="./js/hamburger.js"></script>
 </body>
 </html>
