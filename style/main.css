@@ -140,3 +140,25 @@
         transform: scale(1.0);
     }
 }
+
+@media screen and (max-width: 426px){
+
+    #btn-hello{
+        font-size: 1.5rem;
+        
+    }
+
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .presentation{
+        width: 90%;
+    }
+
+    .lista-proyectos li{
+        margin-left: 0;
+    }
+
+}

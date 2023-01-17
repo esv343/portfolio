@@ -115,16 +115,23 @@
         display: none;
     }
 
-    
+}
 
-
-
-
-
+@media screen and (max-width: 426px){
+   
+   .secciones, .lista-secciones{
+     flex-direction: column;
+     justify-content: center;
+     position: absolute;
+     transform: translate(-675px,25px);
+     z-index: 1;
+     
+   }
 
 
 
 }
+
 
 
 
