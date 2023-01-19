@@ -197,8 +197,21 @@
     width: 65%;
   }
 
+}
 
+@media screen and (max-width: 321px){
 
+  .texto-contacto h1{
+    font-size: 2rem;
+  }
+
+  .texto-contacto p{
+    font-size: 1rem;
+  }
+
+  #twitter, #linkedin{
+    width: 40px;
+  }
 }
 
 

@@ -57,3 +57,29 @@
     }
 
 }
+
+@media screen and (max-width: 376px){
+
+    .top img{
+        left: 35%;
+    }
+
+    .nav-inferior li, .nombre-footer p{
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media screen and (max-width: 321px){
+
+    .top img{
+        left: 31%;
+    }
+
+    .nav-inferior{
+        padding: 0;
+    }
+
+
+}

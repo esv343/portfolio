@@ -162,3 +162,19 @@
     }
 
 }
+
+@media screen and (max-width: 321px){
+
+    #perfil{
+        width: 250px;
+    }
+
+    #btn-hello{
+        font-size: 1.2rem; 
+    }
+
+
+    .presentation p{
+        font-size: 0.8rem;
+    }
+}

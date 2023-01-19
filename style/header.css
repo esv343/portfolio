@@ -120,14 +120,30 @@
 @media screen and (max-width: 426px){
    
    .secciones, .lista-secciones{
-     flex-direction: column;
-     justify-content: center;
-     position: absolute;
+
      transform: translate(-675px,25px);
-     z-index: 1;
      
    }
 
+}
+
+@media screen and (max-width: 376px){
+
+  .secciones, .lista-secciones{
+
+    transform: translate(-645px,25px);
+
+  }
+
+}
+
+@media screen and (max-width: 321px){
+
+  .secciones, .lista-secciones{
+
+    transform: translate(-620px,25px);
+
+  }
 
 
 }
