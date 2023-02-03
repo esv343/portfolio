@@ -1,32 +1,37 @@
+/* SECCION DE PRESENTACION */
+
+/* Foto de perfil */
 #perfil{
     width: 450px;
 }
 
-#btn-hello{
+/* Boton con saludo */
+#btn-hello a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Clase general para botones */
+.btn-generic{
     font-family: 'Sintony';
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
     background-color: #FCA311;
     border-radius: 20px;
-    border: #FCA311;
-    padding: 0.5rem;
+    border: #FCA311;    
 }
 
-#btn-hello a{
-    text-decoration: none;
+.btn-generic p{
     color: white;
-}
-
-#proyectos{
-    color: #212529;
-    font-size: 1rem;
+    margin: 0;
 }
 
 .content{
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -42,11 +47,116 @@
     font-size: 1.2rem;
 }
 
-.separador{
-    width: 60%;
-    height: 0.5px;
-    color: #14213d;
-    background-color: #14213d;
+.presentation a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.presentation a:visited{
+    color: black;
+}
+
+/* Iconos de descargas */
+.fa-cloud-arrow-down, .fa-stamp{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: #FCA311;
+}
+
+/* SECCION DE SKILLS */
+
+/* Seccion con botones y divs de skills */
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    padding: 3rem;
+}
+/* Div que contiene las skills (tech & soft) */
+.div-skills{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 250px;
+    height: 550px;
+    margin: 1rem 3rem 1rem 0;
+}
+/* Reglas conjuntas */
+#tech-icons,
+#soft-icons{
+    text-align: center;
+}
+
+#tech-icons span p,
+#soft-icons span p{
+    font-weight: 700;
+}
+
+#tech-button,
+#soft-button{
+    background-color: #14213D;
+    width: 280px;
+}
+/* Div que contiene los iconos de tecnologias */
+
+#tech-icons span p{
+    margin-top: 2rem;
+}
+
+#python{
+    font-size: 4rem;
+}
+
+#django{
+    font-size: 4.5rem;
+}
+
+#fastapi{
+    font-size: 6rem;
+}
+
+#mongo{
+    font-size: 4rem;
+}
+
+#sqlite{
+    font-size: 5rem;
+}
+
+#git{
+    font-size: 4rem ;
+}
+
+#github{
+    font-size: 3.5rem;
+}
+
+#trello{
+    font-size: 4rem;
+}
+
+.tech-icon{
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+/* Div que contiene iconos de habilidades */
+.soft-p{
+    font-size: 1.5rem;
+}
+
+
+
+/* SECCION DE PROYECTOS */
+
+#proyectos{
+    color: #212529;
+    font-size: 1rem;
 }
 
 .div-proyectos h1{
@@ -89,6 +199,8 @@
 .lista-proyectos li a img{
     width: 100%;
 }
+
+
 
 @media screen and (max-width: 769px){
 
