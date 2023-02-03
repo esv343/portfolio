@@ -7,6 +7,7 @@
 
 /* Boton con saludo */
 #btn-hello a{
+    margin: 0;
     text-decoration: none;
     color: white;
 }
@@ -208,6 +209,18 @@
         width: 300px;
     }
 
+    #btn-hello{
+        font-size: 1.5rem;
+    }
+
+    #skills{
+        justify-content: space-between;
+    }
+
+    .btn-generic{
+        font-size: 1.5rem;
+    }
+
     .presentation{
         width: 50%;
         margin-right: 0;
@@ -222,19 +235,14 @@
         margin-top: 2rem;
     }
     
-    #btn-hello{
-        font-size: 1.5rem;
+    .div-skills{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 0;
     }
 
-    .separador{
-        width: 100%;
-        height: 0.5px;
-        color: #2b3549;
-        background-color: #333a4b;
-    }
 
     .lista-proyectos{
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -258,6 +266,10 @@
     #btn-hello{
         font-size: 1.5rem;
         
+    }
+
+    #skills{
+        flex-direction: column;
     }
 
     .content{
@@ -285,6 +297,62 @@
         font-size: 1.2rem; 
     }
 
+    #tech-icons span p,
+    #soft-icons span p{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    #python{
+        font-size: 3rem;
+    }
+    
+    #django{
+        font-size: 3.5rem;
+    }
+    
+    #fastapi{
+        font-size: 5rem;
+    }
+    
+    #mongo{
+        font-size: 3rem;
+    }
+    
+    #sqlite{
+        font-size: 4rem;
+    }
+    
+    #git{
+        font-size: 3rem ;
+    }
+    
+    #github{
+        font-size: 2.5rem;
+    }
+    
+    #trello{
+        font-size: 3rem;
+    }
+    
+    .tech-icon{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    
+    .div-skills{
+        height: 420px;
+    }
+
+
+    /* Div que contiene iconos de habilidades */
+    .soft-p{
+        font-size: 1.2rem;
+    }
+
+    .btn-generic{
+        font-size: 1.2rem;
+    }
 
     .presentation p{
         font-size: 0.8rem;
