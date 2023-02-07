@@ -30,3 +30,63 @@
     height: 100%;
     object-fit: contain;
 }
+
+/* Seccion con parrafos y fotos */
+#about-gray{
+    background-color: #E5E5E5;
+    padding: 3rem;
+    margin-bottom: 5rem;
+}
+
+#about-gray span{
+    font-weight: 700;
+}
+
+#container-about{
+    width: 70%;
+    margin: auto;
+}
+
+#eliaspic_1{
+    width: 200px;
+}
+
+#studio{
+    width: 150px;
+
+}
+
+#egreso-pescar{
+    width: 200px;
+    margin-top: 1.2rem;
+
+}
+
+.top{
+    margin-top: 4rem;
+}
+
+.img-left{
+    float: left;
+    margin-right: 10px;
+    clear:both;
+}
+
+.img-right{
+    float: right;
+    margin-left: 10px;
+    clear:both;
+}
+
+.p-left {
+    margin-left: 0px;
+    overflow:auto;
+    display:block;    
+}
+
+.p-right {
+    margin-right: 0px;
+    overflow:auto;
+    display:block;
+    
+}
