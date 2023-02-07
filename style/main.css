@@ -191,13 +191,14 @@
 
 .lista-proyectos a{
     text-decoration: none;
+    color: #FCA311;
 }
 
 .lista-proyectos a:visited{
-    color: black;
+    color: #FCA311;
 }
 
-.lista-proyectos li a img{
+.lista-proyectos li img{
     width: 100%;
 }
 
