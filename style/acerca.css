@@ -35,7 +35,6 @@
 #about-gray{
     background-color: #E5E5E5;
     padding: 3rem;
-
 }
 
 #about-gray span{
@@ -106,7 +105,7 @@
     align-items: center;
 }
 
-#cover-books h3,h4{
+#cover-books h3, #cover-books h4{
     text-align: center;
 }
 
@@ -125,4 +124,69 @@
 .band-img{
     width: 165px;
     border: 1px solid #14213D;
+}
+
+/* Media queries */
+@media screen and (max-width: 769px){
+
+    #cover-books, #bands{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 426px){
+
+    #about-gray{
+        padding: 1rem;
+    }
+
+    #eliaspic_1, #studio, #egreso-pescar{
+        display: block;
+        margin: auto;
+    }
+        
+    #books{
+        padding: 1rem;
+    }
+
+    #container-about{
+        width: 100%
+    }
+
+    .separador, .card-container{
+        display: none;
+    }
+
+    .img-left, .img-right{
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        margin-top: 1rem;
+    }
+
+    .btn-center{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 321px){
+
+    #titulo-acerca{
+
+        font-size: 2rem;
+
+    }
+
+    .btn-center{
+        font-size: 1.5rem;
+    }
+
+
 }
