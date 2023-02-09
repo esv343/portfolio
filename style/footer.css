@@ -7,7 +7,7 @@
 
 .nav-inferior a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0.5rem;
 
 }
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: auto;
-    background-color: #E5E5E5;
+    background-color: #14213D;
     padding: 0 2rem 0 2rem;
 }
 
@@ -34,6 +34,11 @@
     left: 50%;
 }
 
+.nombre-footer p{
+    color: white;
+}
+
+/* Media Queries */
 @media screen and (max-width: 769px){
 
     .top img{

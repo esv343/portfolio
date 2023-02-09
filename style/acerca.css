@@ -35,7 +35,7 @@
 #about-gray{
     background-color: #E5E5E5;
     padding: 3rem;
-    margin-bottom: 5rem;
+
 }
 
 #about-gray span{
@@ -89,4 +89,40 @@
     overflow:auto;
     display:block;
     
+}
+
+/* Seccion libros */
+#books{
+    padding: 3rem;
+}
+
+#books-paragraph{
+    margin-bottom: 3rem;
+}
+
+#cover-books, #bands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cover-books h3,h4{
+    text-align: center;
+}
+
+#cover-books img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    border: 1px solid #14213D;
+}
+
+/* Seccion musica */
+#bands h3{
+    text-align: center;
+}
+
+.band-img{
+    width: 165px;
+    border: 1px solid #14213D;
 }
