@@ -46,6 +46,15 @@
     margin: auto;
 }
 
+#container-about span, #container-about h1{
+    text-decoration: underline 0.15em #FCA311;
+    transition: text-decoration-color 300ms;
+}
+
+#container-about span:hover, #container-about h1:hover{
+    text-decoration-color: #14213D;
+}
+
 #eliaspic_1{
     width: 200px;
 }
