@@ -9,15 +9,18 @@
 /* Reglas main*/
 @import url(./main.css);
 
-
 /*Reglas de footer*/
 @import url(./footer.css);
+
+/* Reglas acerca.html */
+@import url(./acerca.css);
 
 /*Reglas contacto.html*/
 @import url(./contacto.css);
 
-/* Reglas acerca.html */
-@import url(./acerca.css);
+/*Reglas de gracias.html*/
+@import url(./gracias.css);
+
 
 body{
     padding: 0;
