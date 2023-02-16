@@ -5,12 +5,41 @@
     width: 450px;
 }
 
-/* Boton con saludo */
-#btn-hello a{
+#btn-hello{
+    width: 500px;
+}
+
+/* Ancla dentro de boton de saludo */
+#btn-anchor{
     margin: 0;
     text-decoration: none;
     color: white;
 }
+/* Animacion de escritura */
+#btn-anchor {
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #14213D; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 2.0s steps(40, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
 
 /* Clase general para botones */
 .btn-generic{
@@ -203,7 +232,24 @@
     width: 100%;
 }
 
+/* Media queries */
 
+@media screen and (max-width: 1025px){
+
+    #perfil{
+        width: 400px;
+    }
+
+    .content{
+        justify-content: space-evenly;
+    }
+
+    .presentation{
+        width: 50%;
+        margin-right: 2rem;
+    }
+
+}
 
 @media screen and (max-width: 769px){
 
@@ -213,8 +259,9 @@
 
     #btn-hello{
         font-size: 1.5rem;
+        width: 400px;
     }
-
+    
     #skills{
         justify-content: space-between;
     }
@@ -289,6 +336,15 @@
 
 }
 
+@media screen and (max-width: 376px){
+
+    #btn-hello{
+        font-size: 1.2rem;
+        width: 350px;
+    }
+}
+
+
 @media screen and (max-width: 321px){
 
     #perfil{
@@ -296,7 +352,8 @@
     }
 
     #btn-hello{
-        font-size: 1.2rem; 
+        font-size: 1.1rem; 
+        width: 280px;
     }
 
     #tech-icons span p,
