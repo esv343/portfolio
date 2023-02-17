@@ -1,20 +1,61 @@
+#btn-contacto{
+  display: block;
+  margin: auto;
+}
+
+#btn-contacto p{
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+
 #twitter, #linkedin{
-    width: 50px;
+  width: 50px;
 }
 
 #form{
-    display: flex;
-    flex-direction: column;
-    background-color: #E5E5E5;
-    padding: 2rem;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 #form input, #form textarea{
-    border-radius: 10px;
-    resize: none;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
+  border-radius: 10px;
+  resize: none;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.contacto{
+  margin-top: 1rem;
+  width: 50%;
+    
+}
+
+.texto-contacto p{
+  font-size: 1.2rem;
+}
+
+.redes-contacto{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.formulario{
+  margin-top: 2rem;
+  width: 50%;
 }
 
 .btn-8,
@@ -100,49 +141,6 @@
   --progress: -100%;
 }
 
-.principal{
-    display: flex;
-    justify-content: center;   
-    position: absolute;
-    top: 180px;
-    right: 100px;
-}
-
-.contacto{
-    width: 30%;
-    margin-right: 2.5rem;
-}
-
-.texto-contacto h1{
-    text-align: center;
-    font-size: 3rem;
-}
-
-.texto-contacto p{
-    font-size: 1.2rem;
-}
-
-.redes-contacto{
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.redes-contacto a{
-    text-decoration: none;
-    color: black;
-    
-}
-
-.barra-separadora{
-    width: 1rem;
-    background: rgb(229,229,229);
-    background: linear-gradient(360deg, #14213D, #E5E5E5);
-}
-
-.formulario{
-    margin-left: 5rem;
-}
 
 /* Media queries */
 @media screen and (max-width: 769px){
@@ -175,10 +173,6 @@
     
   }
 
-  .barra-separadora{
-    display: none;
-  }
-
   .contacto{
     width: 80%;
     margin-right: 0;
@@ -200,6 +194,18 @@
 }
 
 @media screen and (max-width: 321px){
+  
+  #twitter, #linkedin{
+    width: 40px;
+  }
+
+  #btn-contacto p{
+    font-size: 1.8rem;
+  }
+
+  .formulario{
+    margin-top: 0;
+  }
 
   .texto-contacto h1{
     font-size: 2rem;
@@ -209,9 +215,6 @@
     font-size: 1rem;
   }
 
-  #twitter, #linkedin{
-    width: 40px;
-  }
 }
 
 
