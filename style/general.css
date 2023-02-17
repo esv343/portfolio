@@ -38,6 +38,12 @@ html{
     scroll-behavior: smooth;
 }
 
+.img-background{
+  background: url(/assets/img/programacion-fondo.png);
+  
+  
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 20px;

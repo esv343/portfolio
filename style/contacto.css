@@ -39,8 +39,11 @@
 
 .contacto{
   margin-top: 1rem;
-  width: 50%;
-    
+  width: 50%;   
+}
+
+.contacto p{
+  color: white;
 }
 
 .texto-contacto p{
