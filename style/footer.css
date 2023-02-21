@@ -1,90 +1,61 @@
-.nav-inferior{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.footer-basic {
+  padding: 2rem;
+  background-color: #14213D;
+  color:#E5E5E5;
 }
 
-.nav-inferior a{
-    text-decoration: none;
-    color: white;
-    margin: 0.5rem;
-
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
 }
 
-#footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    background-color: #14213D;
-    padding: 0 2rem 0 2rem;
+.footer-basic li {
+  padding:0 10px;
+  display: inline;
 }
 
-.top-arrow{
-    position: absolute;
-    width: 90%;
+.footer-basic ul, .footer-basic a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
 }
 
-.top img{
-    width: 80px;
-    height: 80px;
-    display: block;
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
+.footer-basic ul, .footer-basic a:hover {
+  opacity:1;
 }
 
-.nombre-footer p{
-    color: white;
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 769px){
-
-    .top img{
-        left: 45%;
-    }
-
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
 }
 
-@media screen and (max-width: 426px){
-
-    .top img{
-        left: 38%;
-    }
-
-    .nav-inferior{
-        flex-direction: column;
-    }
-
-    .nombre-footer p{
-        width: 50%;
-    }
-    
+.footer-basic .social > a:hover {
+  opacity:0.9;
 }
 
-@media screen and (max-width: 376px){
-
-    .top img{
-        left: 35%;
-    }
-
-    .nav-inferior li, .nombre-footer p{
-        font-size: 0.8rem;
-    }
-
-
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
 }
 
-@media screen and (max-width: 321px){
 
-    .top img{
-        left: 31%;
-    }
-
-    .nav-inferior{
-        padding: 0;
-    }
-
-
-}

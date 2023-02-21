@@ -62,6 +62,7 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
+    margin-top: 0;
 
 }
 
@@ -250,6 +251,19 @@
         margin-right: 2rem;
     }
 
+    .lista-proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+        padding: 50px;
+    }
+
+    .lista-proyectos li{
+        width: 90%;
+    }
+
+
 }
 
 @media screen and (max-width: 769px){
@@ -282,7 +296,6 @@
 
     .content{
         justify-content: space-evenly;
-        margin-top: 2rem;
     }
     
     .div-skills{
@@ -314,8 +327,8 @@
 @media screen and (max-width: 426px){
 
     #btn-hello{
-        font-size: 1.5rem;
-        
+        font-size: 1.4rem;
+        width: 350px;
     }
 
     #skills{
@@ -341,7 +354,7 @@
 
     #btn-hello{
         font-size: 1.2rem;
-        width: 350px;
+        width: 300px;
     }
 }
 
@@ -353,8 +366,8 @@
     }
 
     #btn-hello{
-        font-size: 1.1rem; 
-        width: 280px;
+        font-size: 1rem; 
+        width: 250px;
     }
 
     #tech-icons span p,

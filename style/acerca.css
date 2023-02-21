@@ -153,10 +153,20 @@
 
 @media screen and (max-width: 1025px){
 
+    #header{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
     #bands{
         display: flex;
         flex-wrap: wrap;
     }
+
+    .content-about{
+        padding: 3rem;
+    }
+
 }
 
 
@@ -233,6 +243,11 @@
         margin: auto;
     }
 
+    .btn-generic{
+        font-size: 1.5rem;
+        width: 95%;
+    }
+
 }
 
 @media screen and (max-width: 321px){
@@ -243,6 +258,10 @@
 
     .btn-center{
         font-size: 1.5rem;
+    }
+
+    .btn-generic{
+        font-size: 1.3rem;
     }
 
 }
